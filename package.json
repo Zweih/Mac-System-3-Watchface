@@ -1,0 +1,27 @@
+{
+    "author": "foxhead@airmail.cc",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mac-system-3",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Mac System 3 Watchface",
+        "enableMultiJS": true,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "2c95ee40-a402-46b2-9163-5d0b2bb6a7b0",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
