@@ -12,11 +12,25 @@
         "messageKeys": {},
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/backg.bmp",
+                    "name": "BACKG_IMG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/ufonts.com_chicago.ttf",
+                    "name": "Font_Chicago_34",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "aplite"
+            "aplite",
+            "basalt"
         ],
         "uuid": "2c95ee40-a402-46b2-9163-5d0b2bb6a7b0",
         "watchapp": {
