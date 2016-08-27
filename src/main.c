@@ -51,6 +51,9 @@ static void init(void) {
 	text_layer_set_font(date_layer, goth);
 	text_layer_set_text_alignment(date_layer, GTextAlignmentRight);
 	
+	time_t now =time(NULL);
+	handle_timechanges(localtime(&now), MINUTE_UNIT);
+	
 	tick_timer_service_subscribe(MINUTE_UNIT, handle_timechanges);
 
 	// Add the text layer to the window
